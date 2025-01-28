@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabels with styles</title>
+</head>
+<body>
+    <style>
+        body {
+            margin: 0; 
+            padding: 0;
+            background-color:#F0F8FF;
+            border-color:transparent;
+        }
+        .try
+        {
+          padding: 100px;
+          width:100%;
+          box-sizing: border-box;
+          align-content: center; 
+        }
+     table
+    {
+            width: 90%;
+            margin: 40px auto;
+            border-collapse: collapse;
+            box-shadow: 6px 10px 20px rgba(0, 0, 0, 0.2);
+            background-color: white;
+            border-color: transparent;
+            padding: 20px;
+    }
+    th,td
+    {
+      padding: 10px;
+      text-align: center;
+    }
+    th
+    {
+        color:#003366;
+    }
+    td:nth-child(1)
+    {
+        background-color: #87CEEB;
+    }
+    td:nth-child(2)
+    {
+        background-color: #98FB98;
+    }
+    td:nth-child(3)
+    {
+        background-color: #FFDAB9;
+    }
+    td:nth-child(4)
+    {
+        background-color: #D3D3D3;
+    }
+    td:nth-child(5)
+    {
+        background-color: #98Ff98;
+    }
+    td:nth-child(6)
+    {
+        background-color: #FFD700;
+    }
+    </style>
+    <div class="try">
+    <table width="100%" border="2px" cellpadding="25px" cellspacing="17px" align="center">
+        <td colspan="7" align="center"><h3>College TimeTable</h3></td>
+        <tr name="header">
+            <th>Hours</th>
+            <th>ClassTiming</th>
+            <th>Monday</th>
+            <th>Tuesday</th>
+            <th>Wednesday</th>
+            <th>Thursday</th>
+            <th>Friday</th>
+        </tr>
+        <tr>
+            <td>First Hour</td>
+            <td>8:30 AM to 9:30 AM</td>
+            <td>C++ Theory</td>
+            <td>English Communication</td>
+            <td>Tamil</td>
+            <td>PHP Lab</td>
+            <td>Accounts</td>
+        </tr>
+        <tr>
+            <td>Second Hour</td>
+            <td>9:30 AM to 10:30 AM</td>
+            <td>Maths</td>
+            <td>Data Structures</td>
+            <td>Physics</td>
+            <td>Java Theory</td>
+            <td>Statistics</td>
+        </tr>
+        <tr></tr>
+            <td font="crimsion">Interval</td>
+            <td>10:30 AM to 11:00 AM</td>
+            <td colspan="5" align="center">B r e a k</td>
+        </tr>
+        <tr>
+            <td>Third Hour</td>
+            <td>11:00 AM to 12:00 PM</td>
+            <td>Economics</td>
+            <td>Database Management</td>
+            <td>Computer Networks</td>
+            <td>HTML & CSS Lab</td>
+            <td>Management</td>
+        </tr>
+        <tr>
+            <td>Fourth Hour</td>
+            <td>12:00 PM to 1:00 PM</td>
+            <td>Operating Systems</td>
+            <td>Web Development</td>
+            <td>Python Lab</td>
+            <td>Business Studies</td>
+            <td>Environmental Science</td>
+        </tr>
+        <tr>
+            <td>Luch Break</td>
+            <td>1:00 PM to 2:30 PM</td>
+            <td colspan="5" align="center">E a t W i l l</td>
+        </tr>
+        <tr>
+            <td>Fifth Hour</td>
+            <td>2:30 PM to 3:30 PM</td>
+            <td>Software Engineering</td>
+            <td>Linear Algebra</td>
+            <td>Networking Lab</td>
+            <td>Communication Skills</td>
+            <td>Marketing</td>
+        </tr>
+        <tr>
+            <td>Sixth Hour</td>
+            <td>3:30 PM to 4:30 PM</td>
+            <td>Database Lab</td>
+            <td>Computer Graphics</td>
+            <td>Discrete Mathematics</td>
+            <td>Project Work</td>
+            <td>Human Resources</td>
+        </tr>
+    </table>
+    </div>
+</body>
+</html>
